@@ -1,12 +1,14 @@
 import { createAppContainer, createSwitchNavigator } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
+import { createBottomTabNavigator } from 'react-navigation-tabs'
+import { Ionicons } from '@expo/vector-icons'
 
 import Loading from './screens/Loading'
 import Home from './screens/Home'
 import Login from './screens/Login'
 import Register from './screens/Register'
 
-import * as config from './config'
+import config from './config'
 import * as firebase from 'firebase'
 
 
