@@ -9,11 +9,11 @@ const styles = StyleSheet.create({
     }
 })
 
-export default class Message extends Component {
+export default class Profile extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text> Message Screen </Text>
+                <Text> Profile Screen </Text>
             </View>
         )
     }

@@ -9,11 +9,11 @@ const styles = StyleSheet.create({
     }
 })
 
-export default class Message extends Component {
+export default class Notification extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text> Message Screen </Text>
+                <Text> Notification Screen </Text>
             </View>
         )
     }

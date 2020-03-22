@@ -20,6 +20,10 @@ const styles = StyleSheet.create({
 })
 
 export default class Home extends Component {
+    static navigationOptions = {
+        headerShown: false
+    }
+    
     state = {
         email: '',
         displayName: '',
@@ -35,9 +39,7 @@ export default class Home extends Component {
     }
 
     signOutUser = () => {
-        firebase
-            .auth()
-            .signOut()
+        firebase.auth().signOut()
     }
 
 
